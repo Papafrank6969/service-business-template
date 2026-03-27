@@ -44,6 +44,7 @@ img {
 
 .site-shell {
   position: relative;
+  padding-bottom: 6rem;
 }
 
 .site-shell::before {
@@ -636,6 +637,10 @@ img {
 }
 
 @media (min-width: 768px) {
+  .site-shell {
+    padding-bottom: 2rem;
+  }
+
   .site-container {
     width: min(1180px, calc(100% - 2rem));
   }

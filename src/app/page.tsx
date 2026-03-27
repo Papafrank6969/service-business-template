@@ -48,7 +48,7 @@ const localBusinessJsonLd = {
 
 export default function HomePage() {
   return (
-    <main className="site-shell pb-24 md:pb-10" style={themeStyle}>
+    <main className="site-shell" style={themeStyle}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
